@@ -1,6 +1,7 @@
 const winston = require('winston');
 const express = require('express');
 const app = express();
+app.use(express.static('public'));
 
 require('./startup/logging')();
 require('./startup/routes')(app);
