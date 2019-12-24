@@ -1,3 +1,4 @@
 {
-  "jwtPrivateKey": "trello_jwtPrivateKey"
+  "jwtPrivateKey": "trello_jwtPrivateKey",
+  "db": "trello_db"
 }
